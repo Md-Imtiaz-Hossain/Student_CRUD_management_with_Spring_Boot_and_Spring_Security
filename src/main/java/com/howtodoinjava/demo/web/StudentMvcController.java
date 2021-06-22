@@ -22,7 +22,15 @@ public class StudentMvcController
 	@Autowired
 	StudentService service;
 
-//	List All Student
+
+	// Home Page
+	@GetMapping("/")
+	public String homePage(){
+		return "index";
+	}
+
+
+	//	List All Student
 	@GetMapping("/home")
 	public String getAllStudents(Model model)
 	{
@@ -35,7 +43,6 @@ public class StudentMvcController
 
 
 	//	Create Student
-//	@RequestMapping(path = "/createEmployee", method = RequestMethod.POST)
 	@PostMapping("/createOrUpdateProcess")
 	public String createOrUpdateStudents(StudentEntity studentEntity)	{
 
