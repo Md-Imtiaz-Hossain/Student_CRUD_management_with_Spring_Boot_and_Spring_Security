@@ -22,10 +22,20 @@ Feature-
 6.	We can Show All Student.
 7.	We Implemented Spring Security to View All the List
 8.	Our Saving Password in database Is Encrypted password for Protection Attack.
+
+
+Home Page
+
+![image](https://user-images.githubusercontent.com/55924609/122860298-4c36eb00-d33f-11eb-8db4-154bc4f149bc.png)
+
+
+Register Student
+
+![image](https://user-images.githubusercontent.com/55924609/122762168-d7bc6780-d2be-11eb-9e2a-018b2f4cc483.png)
  
  
  
- --> Before Work with This serversite Programme Spring Security Give Us The log in form to Authorized
+ --> Spring Security Give Us The log in form
  
 ![image](https://user-images.githubusercontent.com/55924609/122761762-67ade180-d2be-11eb-9b89-95723d6227c7.png)
 
